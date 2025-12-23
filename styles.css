@@ -543,6 +543,29 @@ img {
   background: rgba(255, 255, 255, 0.08);
 }
 
+.privacy-panel {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.privacy-card {
+  padding: 24px 26px;
+  border-radius: var(--radius);
+  border: 1px solid var(--stroke);
+  background: rgba(29, 26, 24, 0.65);
+  box-shadow: var(--shadow);
+}
+
+.privacy-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.privacy-card p {
+  color: var(--muted);
+}
+
 .faq-grid {
   display: grid;
   gap: 18px;
